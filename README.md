@@ -20,7 +20,7 @@ docker pull cogfor/hbase:1.2.1
 docker run -p 2181:2181 -p 60010:60010 -p 60000:60000 -p 60020:60020 -p 60030:60030 -h hbase cogfor/hbase:1.2.1
 ```
 
-Open (http://192.168.99.100:60010)[http://192.168.99.100:60010] for the Admin GUI.
+Open [http://192.168.99.100:60010](http://192.168.99.100:60010) for the Admin GUI.
 
 You may need to replace the ip address by your docker ip address.
 
