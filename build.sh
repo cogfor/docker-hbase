@@ -1,1 +1,1 @@
-docker build --rm=true -t cogfor/hbase:1.2.1 .
+docker build --rm=true -t cogfor/hbase:0.94 .

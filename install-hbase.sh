@@ -1,6 +1,6 @@
 #! /bin/bash
 
-wget --quiet http://apache.proserve.nl/hbase/1.2.1/hbase-1.2.1-bin.tar.gz
-tar xzf hbase-1.2.1-bin.tar.gz -C /opt/
-ln -s /opt/hbase-1.2.1 /opt/hbase
-rm hbase-1.2.1-bin.tar.gz
+wget --quiet https://archive.apache.org/dist/hbase/hbase-0.94.27/hbase-0.94.27.tar.gz
+tar xzf hbase-0.94.27.tar.gz -C /opt/
+ln -s /opt/hbase-0.94.27 /opt/hbase
+rm hbase-0.94.27.tar.gz
